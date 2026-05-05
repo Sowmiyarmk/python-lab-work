@@ -1,0 +1,11 @@
+num=[1,3,4,5,6,7]
+print("The original list num is :",num)
+num2=sorted(num)
+print("the sorted list num2 is :",num2)
+print("the sorted list num2 is :",sorted(num))
+print("the original list is num :",num)
+print("the sorted list is num2 is descending order using sorted is :",sorted(num,reverse=True))
+print("The sort list num returning none:",num.sort())
+print("the original updated sorted list using sort function is:",num)
+num.sort(reverse=True)
+print("the updated sorted list(descending order)using sort function is :",num)
