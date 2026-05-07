@@ -1,0 +1,6 @@
+x = int(10.5)
+y = float(5)
+z = str(100)
+a = bool(7)
+b = complex(1,3)
+print(x, y, z,a,b,sep="\n")
